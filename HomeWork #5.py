@@ -11,12 +11,13 @@ print(immutable_var)
 # 2.
 #  Попытайтесь изменить элементы кортежа immutable_var.
 #  Объясните, почему нельзя изменить значения элементов кортежа.
-immutable_var[1] = 3
-print(immutable_var)
-# 3
+#  immutable_var[1] = 3
+#  print(immutable_var)
+# 3.
 #  Создайте переменную mutable_list и присвойте ей список из
 #  нескольких элементов.
-
+mutable_list = [1, 2, 3, 6, 12, 24]
+print(mutable_list)
 #  Измените элементы списка mutable_list.
 
 #  Выведите на экран измененный список mutable_list.
